@@ -17,10 +17,15 @@ header {
 .logo {
     width: 150px;
 }
+.texto{
+    text-align: center;
+}
 
 .banner{
     width: 100%;
 }
+
+
 
 .imagenproducto{
     width: 150px;
@@ -54,6 +59,16 @@ margin: 20px;
 
     .burger-menu {
         display: block; /* Muestra el menú hamburguesa para dispositivos móviles */
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        margin: 10px;
+    }
+    .burger-menu i{
+        padding: 10px 5px;
+        width: 40px;
+        background-color: #1259c3;
+        border-radius: 5px;
     }
 }
 
