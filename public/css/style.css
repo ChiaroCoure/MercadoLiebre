@@ -1,8 +1,10 @@
+/* Estilos generales */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    font-size: 12px;
 }
 
 ul {
@@ -17,36 +19,84 @@ header {
 .logo {
     width: 150px;
 }
-.texto{
+
+.texto {
     text-align: center;
 }
 
-.banner{
+.banner {
     width: 100%;
 }
 
-
-
-.imagenproducto{
-    width: 150px;
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.ventajas{
-text-align: center;
-margin: 20px;
+.lista-productos {
+    width: 90%;
+    margin: 20px;
+    text-align: center;
 }
 
-.ventajas i{
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    margin: 30px 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.productos article {
+    width: 250px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.productos img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.productos p {
+    font-size: 12px;
+}
+
+.productos .precio {
+    font-size: 18px;
+}
+
+.productos .descuento .descripcion {
+    font-size: 16px;
+}
+
+.ventajas {
+    text-align: center;
+    margin: 20px;
+}
+
+.ventajas i {
     font-size: 35px;
     margin: 10px;
     color: #1259c3;
 }
 
-.ventajas h3{
+.ventajas h3 {
     font-weight: 500;
+    font-size: 16px;
 }
 
-.copyright{
+.footer {
     font-weight: 300;
     margin-top: 40px;
 }
@@ -64,7 +114,7 @@ margin: 20px;
         text-align: center;
         margin: 10px;
     }
-    .burger-menu i{
+    .burger-menu i {
         padding: 10px 5px;
         width: 40px;
         background-color: #1259c3;
@@ -78,3 +128,4 @@ margin: 20px;
         display: none; /* Oculta el menú hamburguesa para dispositivos de escritorio */
     }
 }
+
