@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Contenido del encabezado -->
+        <div class="caja1">
+            <div class="caja2">
+                <div class="img-contenedor">
+                    <img class="logo" src="img/logo-mercado-liebre.svg" alt="" />
+                </div>
+                <form action="" method="post">
+                    <div class="contenedor-input">
+                        <input type="search" placeholder="Search"> 
+                        <i class="fas fa-search"></i>
+                    </div>
+                </form>
+            </div>
+        <div class="texto"><p><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</p></div>
+        </div>
+        <nav class="desktop-menu">
+            <ul class="section1">
+                <!-- Menú para dispositivos de escritorio -->
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Tiendas Oficiales</a></li>
+                <li><a href="">Vender</a></li>
+                <li><a href="">Ayuda</a></li>
+            </ul>
+            <ul class="section2">
+                <!-- Menú para dispositivos de escritorio -->
+                <li><a href="register">Creá tu cuenta<i class="fas fa-user-plus"></i></a></li>
+                <li><a href="login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="">Mis compras<i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </nav>
+        <div class="burger-menu">
+            <!-- Icono del menú hamburguesa -->
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <form action="/login" class="formulario-registro">
+        <div class="grupo-formulario">
+            <label for="nombreusuario">Nombre de Usuario</label>
+            <input type="text" name="nombreusuario" id="nombreusuario" class="entrada-texto">
+        </div>
+        <div class="grupo-formulario">
+            <label for="contra">Contraseña</label>
+            <input type="password" name="contra" id="contra" class="entrada-texto">
+        </div>
+        <div class="grupo-formulario">
+            <button type="submit" class = "btn-enviar" class = "btn-login">Iniciar Sesión</button>
+        </div>
+    </form>
+</body>
+</html>
